@@ -1,0 +1,15 @@
+addpath("data\30_07_2021\")
+addpath("gnssLib\")
+
+
+groundEphemeris = readRinexNav("ground.nav");
+roverEphemeris = readRinexNav("rover.nav");
+[groundInitPos, groundObs, groundInterval] = readRinexObs("ground.obs");
+[roverInitPos, roverObs, roverInterval] = readRinexObs("rover.obs");
+groundObs = obs2table(groundObs);
+roverObs = obs2table(roverObs);
+
+% Selecionando
+gpsData.gpsEphemeris = roverEphemeris.gpsEphemeris;
+gpsData.satsIds = unique(gpsData.gpsEphemeris(1, :));
+
