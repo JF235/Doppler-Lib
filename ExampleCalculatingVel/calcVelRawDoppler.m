@@ -3,15 +3,12 @@ addpath("LibDoppler\")
 addpath("LibGnss\")
 addpath("ExampleCalculatingVel\")
 %%
-dataPath = "Data/09_02_2022/";
+dataPath = "Data/30_07_2021/";
 readData;
 selectGpsData;
-T = 300500;
-obs = getObservation(T, posData, gpsData);
 
 %%
 wavelength = 2.99792458e8/1.57542e9;
-v = calculate_vel(obs.recPos, obs.satsPos, obs.satsVel, obs.dopplers', wavelength);
 
 %%
 times = unique(gpsData.roverObs.time);
