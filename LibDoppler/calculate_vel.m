@@ -1,4 +1,4 @@
-function v = calculate_vel(rec_pos, sats_pos, sats_vel, dopplers, wavelength)
+function [v, res] = calculate_vel(rec_pos, sats_pos, sats_vel, dopplers, wavelength)
     % Vetores LOS (por coluna)
     los = (sats_pos - rec_pos)./vecnorm(sats_pos - rec_pos);
     
@@ -20,5 +20,8 @@ function v = calculate_vel(rec_pos, sats_pos, sats_vel, dopplers, wavelength)
     b = b';
     
     % Resolvendo por LS
-    v = Phi\b;  
+    v = Phi\b;
+    
+    % Residue
+    res = max( (Phi*v - b) );
 end
