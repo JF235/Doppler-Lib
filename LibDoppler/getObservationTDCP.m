@@ -1,6 +1,6 @@
 function obsTDCP = getObservationTDCP(k, posData, gpsData)
     % Observações do temo t(k-1), t(k) e t(k+1)
-    times = unique(gpsData.roverObs.time);
+    times = unique(gpsData.roverObs(:, 2));
     obs_prev = getObservation(times(k-1), posData, gpsData);
     obs = getObservation(times(k), posData, gpsData);
     obs_next = getObservation(times(k+1), posData, gpsData);
@@ -20,7 +20,7 @@ function obsTDCP = getObservationTDCP(k, posData, gpsData)
     sats = intersect(sats, sats_next, 'stable');
 
     % Observação para processamento TDCP
-    obsTDCP.recPos = obs.recPos;
+    obsTDCP.recPos = obs.recPos';
     obsTDCP.satsIds = sats;
     obsTDCP.time = obs.time;
 

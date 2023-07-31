@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.coder" plugin-version="R2021a">
-  <configuration build-checksum="4001415531" file="C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler\calculate_velTDCP.prj" location="C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler" name="calculate_velTDCP" target="target.unifiedcoder" target-name="MATLAB Coder">
+  <configuration build-checksum="695654292" file="C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler\calculate_velTDCP.prj" location="C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler" name="calculate_velTDCP" target="target.unifiedcoder" target-name="MATLAB Coder">
     <profile key="profile.mex">
       <param.BuiltInstrumentedMex />
       <param.RanInstrumentedMex />
@@ -584,7 +584,7 @@
     <param.AutoInferUnboundedSizeThreshold />
     <param.EnableFixedPointStep />
     <param.EnableScreener>true</param.EnableScreener>
-    <param.AnnotationChecksum>1747594745</param.AnnotationChecksum>
+    <param.AnnotationChecksum>2894983354</param.AnnotationChecksum>
     <var.LegacyTarget />
     <var.MirrorOnOpen>false</var.MirrorOnOpen>
     <param.FixedPointEnabled>false</param.FixedPointEnabled>
@@ -594,12 +594,12 @@
     <param.hdlParamStorage />
     <var.gc.lastOutputRoot>codegen\mex\calculate_velTDCP</var.gc.lastOutputRoot>
     <var.gc.lastOutputType>MEX_FILE</var.gc.lastOutputType>
-    <var.gc.preBuildChecksum>1487967762</var.gc.preBuildChecksum>
+    <var.gc.preBuildChecksum>1416159522</var.gc.preBuildChecksum>
     <var.cfi.lastOutputRoot>codegen\mex\calculate_velTDCP</var.cfi.lastOutputRoot>
     <var.cfi.preBuildChecksum>850181421</var.cfi.preBuildChecksum>
     <var.lastCfiTestSnippet>DopplerLib_demo</var.lastCfiTestSnippet>
     <var.outdatedOnRestore />
-    <var.lastUserSourceChecksum>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;checksum&gt;&lt;includedFiles&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler\calculate_vel.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler\calculate_velTDCP.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler\filterObs.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler\getObservation.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler\getObservationTDCP.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibGnss\rotX.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibGnss\rotZ.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibGnss\satPosition.m&lt;/file&gt;&lt;/includedFiles&gt;&lt;value&gt;2641581304&lt;/value&gt;&lt;/checksum&gt;</var.lastUserSourceChecksum>
+    <var.lastUserSourceChecksum>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;checksum&gt;&lt;includedFiles&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler\calculate_vel.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler\calculate_velTDCP.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler\filterObs.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler\getObservation.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler\getObservationTDCP.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibGnss\rotX.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibGnss\rotZ.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibGnss\satPosition.m&lt;/file&gt;&lt;/includedFiles&gt;&lt;value&gt;589421728&lt;/value&gt;&lt;/checksum&gt;</var.lastUserSourceChecksum>
     <var.sourceSetState>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;sourceModel&gt;&lt;primarySourceFiles&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler\calculate_vel.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler\calculate_velTDCP.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler\filterObs.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler\getObservation.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibDoppler\getObservationTDCP.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibGnss\rotX.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibGnss\rotZ.m&lt;/file&gt;&lt;file&gt;C:\Users\jfcmp\Coisas do Jota\Faculdade\IC\Codigos\filter_using_velocity\LibGnss\satPosition.m&lt;/file&gt;&lt;/primarySourceFiles&gt;&lt;fixedPointSourceFiles/&gt;&lt;fixedPointSourceRegistered&gt;false&lt;/fixedPointSourceRegistered&gt;&lt;fixedPointSourceSelected&gt;false&lt;/fixedPointSourceSelected&gt;&lt;/sourceModel&gt;</var.sourceSetState>
     <param.forceMexBuild>false</param.forceMexBuild>
     <param.NoDefaultJIT />
@@ -850,7 +850,7 @@
     </unset>
     <fileset.entrypoints>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\calculate_velTDCP.m">
-        <Marker>1690835924631</Marker>
+        <Marker>1690837778836</Marker>
       </file>
     </fileset.entrypoints>
     <fileset.testbench>
@@ -860,161 +860,12 @@
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\calculate_velTDCP.m">
         <Inputs fileName="calculate_velTDCP.m" functionName="calculate_velTDCP">
           <Input Name="k" typeId="0" />
-          <Input Name="posData" typeId="1">
-            <Field Name="data" typeId="2">
-              <Field Name="{:}" typeId="3" />
-            </Field>
-            <Field Name="metaDim" typeId="4">
-              <Field Name="labels" typeId="5">
-                <Field Name="{1, 1}" typeId="6" />
-                <Field Name="{1, 2}" typeId="7" />
-              </Field>
-              <Field Name="length" typeId="0" />
-            </Field>
-            <Field Name="rowDim" typeId="8">
-              <Field Name="labels" typeId="9" />
-              <Field Name="length" typeId="10" />
-            </Field>
-            <Field Name="varDim" typeId="11">
-              <Field Name="descrs" typeId="2">
-                <Field Name="{:}" typeId="12" />
-              </Field>
-              <Field Name="units" typeId="2">
-                <Field Name="{:}" typeId="12" />
-              </Field>
-              <Field Name="continuity" typeId="13" />
-              <Field Name="customProps" typeId="14" />
-              <Field Name="hasDescrs" typeId="15" />
-              <Field Name="hasUnits" typeId="15" />
-              <Field Name="hasContinuity" typeId="15" />
-              <Field Name="hasCustomProps" typeId="15" />
-              <Field Name="labels" typeId="16">
-                <Field Name="{1, 1}" typeId="17" />
-                <Field Name="{1, 2}" typeId="18" />
-                <Field Name="{1, 3}" typeId="18" />
-                <Field Name="{1, 4}" typeId="18" />
-                <Field Name="{1, 5}" typeId="6" />
-                <Field Name="{1, 6}" typeId="6" />
-                <Field Name="{1, 7}" typeId="6" />
-                <Field Name="{1, 8}" typeId="6" />
-                <Field Name="{1, 9}" typeId="17" />
-                <Field Name="{1, 10}" typeId="18" />
-                <Field Name="{1, 11}" typeId="18" />
-                <Field Name="{1, 12}" typeId="18" />
-                <Field Name="{1, 13}" typeId="18" />
-                <Field Name="{1, 14}" typeId="18" />
-                <Field Name="{1, 15}" typeId="18" />
-                <Field Name="{1, 16}" typeId="18" />
-                <Field Name="{1, 17}" typeId="18" />
-              </Field>
-              <Field Name="length" typeId="0" />
-            </Field>
-            <Field Name="arrayProps" typeId="14">
-              <Field Name="Description" typeId="12" />
-              <Field Name="UserData" typeId="19" />
-            </Field>
-          </Input>
-          <Input Name="gpsData" typeId="14">
-            <Field Name="gpsEphemeris" typeId="20" />
-            <Field Name="satsIds" typeId="21" />
-            <Field Name="groundObs" typeId="1">
-              <Field Name="data" typeId="22">
-                <Field Name="{:}" typeId="3" />
-              </Field>
-              <Field Name="metaDim" typeId="4">
-                <Field Name="labels" typeId="5">
-                  <Field Name="{1, 1}" typeId="6" />
-                  <Field Name="{1, 2}" typeId="7" />
-                </Field>
-                <Field Name="length" typeId="0" />
-              </Field>
-              <Field Name="rowDim" typeId="8">
-                <Field Name="labels" typeId="9" />
-                <Field Name="length" typeId="23" />
-              </Field>
-              <Field Name="varDim" typeId="11">
-                <Field Name="descrs" typeId="22">
-                  <Field Name="{:}" typeId="12" />
-                </Field>
-                <Field Name="units" typeId="22">
-                  <Field Name="{:}" typeId="12" />
-                </Field>
-                <Field Name="continuity" typeId="24" />
-                <Field Name="customProps" typeId="14" />
-                <Field Name="hasDescrs" typeId="15" />
-                <Field Name="hasUnits" typeId="15" />
-                <Field Name="hasContinuity" typeId="15" />
-                <Field Name="hasCustomProps" typeId="15" />
-                <Field Name="labels" typeId="25">
-                  <Field Name="{1, 1}" typeId="17" />
-                  <Field Name="{1, 2}" typeId="17" />
-                  <Field Name="{1, 3}" typeId="26" />
-                  <Field Name="{1, 4}" typeId="18" />
-                  <Field Name="{1, 5}" typeId="27" />
-                  <Field Name="{1, 6}" typeId="28" />
-                  <Field Name="{1, 7}" typeId="29" />
-                  <Field Name="{1, 8}" typeId="18" />
-                  <Field Name="{1, 9}" typeId="28" />
-                  <Field Name="{1, 10}" typeId="29" />
-                  <Field Name="{1, 11}" typeId="26" />
-                  <Field Name="{1, 12}" typeId="6" />
-                </Field>
-                <Field Name="length" typeId="0" />
-              </Field>
-              <Field Name="arrayProps" typeId="14">
-                <Field Name="Description" typeId="12" />
-                <Field Name="UserData" typeId="19" />
-              </Field>
-            </Field>
-            <Field Name="roverObs" typeId="1">
-              <Field Name="data" typeId="22">
-                <Field Name="{:}" typeId="3" />
-              </Field>
-              <Field Name="metaDim" typeId="4">
-                <Field Name="labels" typeId="5">
-                  <Field Name="{1, 1}" typeId="6" />
-                  <Field Name="{1, 2}" typeId="7" />
-                </Field>
-                <Field Name="length" typeId="0" />
-              </Field>
-              <Field Name="rowDim" typeId="8">
-                <Field Name="labels" typeId="9" />
-                <Field Name="length" typeId="30" />
-              </Field>
-              <Field Name="varDim" typeId="11">
-                <Field Name="descrs" typeId="22">
-                  <Field Name="{:}" typeId="12" />
-                </Field>
-                <Field Name="units" typeId="22">
-                  <Field Name="{:}" typeId="12" />
-                </Field>
-                <Field Name="continuity" typeId="24" />
-                <Field Name="customProps" typeId="14" />
-                <Field Name="hasDescrs" typeId="15" />
-                <Field Name="hasUnits" typeId="15" />
-                <Field Name="hasContinuity" typeId="15" />
-                <Field Name="hasCustomProps" typeId="15" />
-                <Field Name="labels" typeId="25">
-                  <Field Name="{1, 1}" typeId="17" />
-                  <Field Name="{1, 2}" typeId="17" />
-                  <Field Name="{1, 3}" typeId="26" />
-                  <Field Name="{1, 4}" typeId="18" />
-                  <Field Name="{1, 5}" typeId="27" />
-                  <Field Name="{1, 6}" typeId="28" />
-                  <Field Name="{1, 7}" typeId="29" />
-                  <Field Name="{1, 8}" typeId="18" />
-                  <Field Name="{1, 9}" typeId="28" />
-                  <Field Name="{1, 10}" typeId="29" />
-                  <Field Name="{1, 11}" typeId="26" />
-                  <Field Name="{1, 12}" typeId="6" />
-                </Field>
-                <Field Name="length" typeId="0" />
-              </Field>
-              <Field Name="arrayProps" typeId="14">
-                <Field Name="Description" typeId="12" />
-                <Field Name="UserData" typeId="19" />
-              </Field>
-            </Field>
+          <Input Name="posData" typeId="1" />
+          <Input Name="gpsData" typeId="2">
+            <Field Name="gpsEphemeris" typeId="3" />
+            <Field Name="satsIds" typeId="4" />
+            <Field Name="groundObs" typeId="5" />
+            <Field Name="roverObs" typeId="5" />
           </Input>
           <idpTable>
             <type typeId="0">
@@ -1027,124 +878,15 @@
               <Sparse>false</Sparse>
             </type>
             <type typeId="1">
-              <Class>table</Class>
-              <Size>1 x 1</Size>
+              <Class>double</Class>
+              <Size>:inf x 17</Size>
               <Value />
               <InitialValue />
-              <UserDefined>false</UserDefined>
-              <ClassDefinedIn />
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
             </type>
             <type typeId="2">
-              <Class>cell</Class>
-              <Size>1 x 17</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-              <Homogeneous>true</Homogeneous>
-              <ClassDefinedIn />
-            </type>
-            <type typeId="3">
-              <Class>double</Class>
-              <Size>:inf x 1</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-              <Complex>false</Complex>
-              <Sparse>false</Sparse>
-              <ClassDefinedIn />
-            </type>
-            <type typeId="4">
-              <Class>matlab.internal.coder.tabular.private.metaDim</Class>
-              <Size>1 x 1</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-              <ClassDefinedIn />
-            </type>
-            <type typeId="5">
-              <Class>cell</Class>
-              <Size>1 x 2</Size>
-              <Value />
-              <InitialValue>{'Row' 'Variables'}</InitialValue>
-              <UserDefined>false</UserDefined>
-              <Constant>true</Constant>
-              <TypeName />
-              <Extern>false</Extern>
-              <HeaderFile />
-              <Alignment>-1</Alignment>
-              <Homogeneous>false</Homogeneous>
-              <ClassDefinedIn />
-            </type>
-            <type typeId="6">
-              <Class>char</Class>
-              <Size>1 x 3</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-              <ClassDefinedIn />
-            </type>
-            <type typeId="7">
-              <Class>char</Class>
-              <Size>1 x 9</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-              <ClassDefinedIn />
-            </type>
-            <type typeId="8">
-              <Class>matlab.internal.coder.tabular.private.rowNamesDim</Class>
-              <Size>1 x 1</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-              <ClassDefinedIn />
-            </type>
-            <type typeId="9">
-              <Class>cell</Class>
-              <Size>0 x 0</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-              <Homogeneous>true</Homogeneous>
-              <ClassDefinedIn />
-            </type>
-            <type typeId="10">
-              <Class>double</Class>
-              <Size>1 x 1</Size>
-              <Value />
-              <InitialValue>2012</InitialValue>
-              <UserDefined>false</UserDefined>
-              <Complex>false</Complex>
-              <Sparse>false</Sparse>
-              <Constant>true</Constant>
-              <ClassDefinedIn />
-            </type>
-            <type typeId="11">
-              <Class>matlab.internal.coder.tabular.private.varNamesDim</Class>
-              <Size>1 x 1</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-              <ClassDefinedIn />
-            </type>
-            <type typeId="12">
-              <Class>char</Class>
-              <Size>1 x 0</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-              <ClassDefinedIn />
-            </type>
-            <type typeId="13">
-              <Class>matlab.internal.coder.tabular.Continuity</Class>
-              <Size>1 x 17</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-              <Enum>true</Enum>
-              <ClassDefinedIn />
-            </type>
-            <type typeId="14">
               <Class>struct</Class>
               <Size>1 x 1</Size>
               <Value />
@@ -1154,58 +896,8 @@
               <Extern>false</Extern>
               <HeaderFile />
               <Alignment>-1</Alignment>
-              <ClassDefinedIn />
             </type>
-            <type typeId="15">
-              <Class>logical</Class>
-              <Size>1 x 1</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-              <Sparse>false</Sparse>
-              <ClassDefinedIn />
-            </type>
-            <type typeId="16">
-              <Class>cell</Class>
-              <Size>1 x 17</Size>
-              <Value />
-              <InitialValue>{'time' 'xecef' 'yecef' 'zecef' 'lat' 'lon' 'alt' 'fix' 'pos9' 'pos10' 'pos11' 'pos12' 'pos13' 'pos14' 'pos15' 'pos16' 'pos17'}</InitialValue>
-              <UserDefined>false</UserDefined>
-              <Constant>true</Constant>
-              <TypeName />
-              <Extern>false</Extern>
-              <HeaderFile />
-              <Alignment>-1</Alignment>
-              <Homogeneous>false</Homogeneous>
-              <ClassDefinedIn />
-            </type>
-            <type typeId="17">
-              <Class>char</Class>
-              <Size>1 x 4</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-              <ClassDefinedIn />
-            </type>
-            <type typeId="18">
-              <Class>char</Class>
-              <Size>1 x 5</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-              <ClassDefinedIn />
-            </type>
-            <type typeId="19">
-              <Class>double</Class>
-              <Size>0 x 0</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-              <Complex>false</Complex>
-              <Sparse>false</Sparse>
-              <ClassDefinedIn />
-            </type>
-            <type typeId="20">
+            <type typeId="3">
               <Class>double</Class>
               <Size>24 x :inf</Size>
               <Value />
@@ -1214,7 +906,7 @@
               <Complex>false</Complex>
               <Sparse>false</Sparse>
             </type>
-            <type typeId="21">
+            <type typeId="4">
               <Class>double</Class>
               <Size>1 x :inf</Size>
               <Value />
@@ -1223,82 +915,14 @@
               <Complex>false</Complex>
               <Sparse>false</Sparse>
             </type>
-            <type typeId="22">
-              <Class>cell</Class>
-              <Size>1 x 12</Size>
+            <type typeId="5">
+              <Class>double</Class>
+              <Size>:inf x 12</Size>
               <Value />
               <InitialValue />
-              <UserDefined>false</UserDefined>
-              <Homogeneous>true</Homogeneous>
-            </type>
-            <type typeId="23">
-              <Class>double</Class>
-              <Size>1 x 1</Size>
-              <Value />
-              <InitialValue>116417</InitialValue>
-              <UserDefined>false</UserDefined>
+              <UserDefined>true</UserDefined>
               <Complex>false</Complex>
               <Sparse>false</Sparse>
-              <Constant>true</Constant>
-            </type>
-            <type typeId="24">
-              <Class>matlab.internal.coder.tabular.Continuity</Class>
-              <Size>1 x 12</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-              <Enum>true</Enum>
-            </type>
-            <type typeId="25">
-              <Class>cell</Class>
-              <Size>1 x 12</Size>
-              <Value />
-              <InitialValue>{'week' 'time' 'constID' 'satID' 'pseudorange' 'rangeLLI' 'rangeStrength' 'phase' 'phaseLLI' 'phaseStrength' 'doppler' 'SNR'}</InitialValue>
-              <UserDefined>false</UserDefined>
-              <Constant>true</Constant>
-              <TypeName />
-              <Extern>false</Extern>
-              <HeaderFile />
-              <Alignment>-1</Alignment>
-              <Homogeneous>false</Homogeneous>
-            </type>
-            <type typeId="26">
-              <Class>char</Class>
-              <Size>1 x 7</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-            </type>
-            <type typeId="27">
-              <Class>char</Class>
-              <Size>1 x 11</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-            </type>
-            <type typeId="28">
-              <Class>char</Class>
-              <Size>1 x 8</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-            </type>
-            <type typeId="29">
-              <Class>char</Class>
-              <Size>1 x 13</Size>
-              <Value />
-              <InitialValue />
-              <UserDefined>false</UserDefined>
-            </type>
-            <type typeId="30">
-              <Class>double</Class>
-              <Size>1 x 1</Size>
-              <Value />
-              <InitialValue>21304</InitialValue>
-              <UserDefined>false</UserDefined>
-              <Complex>false</Complex>
-              <Sparse>false</Sparse>
-              <Constant>true</Constant>
             </type>
           </idpTable>
         </Inputs>

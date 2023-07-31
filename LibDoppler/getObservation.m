@@ -9,16 +9,14 @@ function [observation] = getObservation(T, posData, gpsData)
 
     % 1. Posição do receptor (.pos)
 
-    recPos = [ posData.xecef(posData.time == T);
-                posData.yecef(posData.time == T);
-                posData.zecef(posData.time == T) ];
+    recPos = posData(posData(:, 1) == T, 2:4); % pos time = col 1
     
     % 2 e 3. Posição e velocidade dos satélites (.nav > Ephemeris GPS)
     
     % Selecionandos os satélites...
     roverObs_gps = gpsData.roverObs;
-    roverObsT = roverObs_gps(roverObs_gps.time == T, :);
-    satsIds = roverObsT.satID;
+    roverObsT = roverObs_gps(roverObs_gps(:, 2) == T, :); % obs time = col 2
+    satsIds = roverObsT(:, 4);
     noSats = length(satsIds);
     
     % ...obtendo posição e velocidade de cada.
@@ -35,8 +33,8 @@ function [observation] = getObservation(T, posData, gpsData)
     
     % 5. e 6. Doppler e Fase de cada satélite
     % Raw Doppler e TDCP
-    dopplers = roverObsT.doppler;
-    phases = roverObsT.phase;
+    dopplers = roverObsT(:, 11);
+    phases = roverObsT(:, 8);
     
     % Empacotando informação
     observation.time = T;

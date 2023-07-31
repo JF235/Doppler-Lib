@@ -18,17 +18,6 @@ else
     [posData, ti, tf, freqGnss] = readPos(dataPath + "rover.pos");
     posData(:, 1) = round(posData(:, 1)); % posData.time == posData(:, 1)
     
-    % Converting to table
-    groundObs = obs2table(groundObs);
-    roverObs = obs2table(roverObs);
-    posData = pos2table(posData);
-
-    % Converting to struct
-%     groundObs = table2struct(groundObs,"ToScalar",true);
-%     roverObs = table2struct(roverObs,"ToScalar",true);
-%     posData = table2struct(posData,"ToScalar",true);
-
-
     save(dataPath + "gnssData.mat");
 end
 
