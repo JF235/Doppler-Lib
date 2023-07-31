@@ -28,7 +28,8 @@ function obsTDCP = getObservationTDCP(k, posData, gpsData)
     satsPos = [];
     satsVel = [];
     dopplers = [];
-    for satNo = sats'
+    for k = 1:length(sats)
+        satNo = sats(k);
         satMask = obs.satsIds == satNo;
         satsPos = [satsPos, obs.satsPos(:, satMask)];
         satsVel = [satsVel, obs.satsVel(:, satMask)];

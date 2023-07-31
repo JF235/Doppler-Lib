@@ -25,7 +25,7 @@ function [v, res] = calculate_vel(rec_pos, sats_pos, sats_vel, dopplers, wavelen
     % Residue
     residues = (Phi*v - b).^2;
     res = max(residues);
-    while res > .1 && length(b) > 5
+    while res > .05 && length(b) > 5
         mask = (residues ~= res);
         Phi = Phi(mask, :);
         b = b(mask);
