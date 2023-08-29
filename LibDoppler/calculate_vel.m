@@ -1,9 +1,11 @@
-function [v, res] = calculate_vel(rec_pos, sats_pos, sats_vel, dopplers, wavelength)
+function [v, res] = calculate_vel(rec_pos, sats_pos, sats_vel, dopplers, wavelength, pivo_idx)
     % Vetores LOS (por coluna)
     los = (sats_pos - rec_pos)./vecnorm(sats_pos - rec_pos);
     
     % Escolhendo pivo
-    pivo_idx = length(dopplers);
+    if pivo_idx == -1
+        pivo_idx = length(dopplers);
+    end
     pivo_vel = sats_vel(:, pivo_idx);
     pivo_los = los(:, pivo_idx);
     pivo_doppler = dopplers(:, pivo_idx);
